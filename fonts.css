@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "Source Serif Pro Bold";
+    src: url("https://www.mountainviewpasturespa.com/uploads/b/11edf924f1347b1bb49110d3e695087988b81ab6dcf33c9fe6649dde75a6029a/SOURCESERIFPRO-BOLD_1705322673.TTF") format("truetype");
+    font-weight: 400;
+    font-display: fallback;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Source Serif Pro SemiBold";
+    src: url("https://www.mountainviewpasturespa.com/uploads/b/11edf924f1347b1bb49110d3e695087988b81ab6dcf33c9fe6649dde75a6029a/SOURCESERIFPRO-SEMIBOLD_1705322671.TTF") format("truetype");
+    font-weight: 400;
+    font-display: fallback;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Lato Regular";
+    src: url("https://www.mountainviewpasturespa.com/uploads/b/11edf924f1347b1bb49110d3e695087988b81ab6dcf33c9fe6649dde75a6029a/LATO-REGULAR_1705322745.TTF") format("truetype");
+    font-weight: 400;
+    font-display: fallback;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins Medium";
+    src: url("https://www.mountainviewpasturespa.com/uploads/b/11edf924f1347b1bb49110d3e695087988b81ab6dcf33c9fe6649dde75a6029a/POPPINS-MEDIUM_1705322840.TTF") format("truetype");
+    font-weight: 400;
+    font-display: fallback;
+    font-style: normal;
+}
