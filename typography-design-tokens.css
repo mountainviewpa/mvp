@@ -1,0 +1,11 @@
+:root {
+    --mvp-font-family-cta-text: "Poppins Medium";
+    --mvp-font-family-heading: "Source Serif Pro Bold";
+    /* --mvp-font-family-section-heading: "";  Need to track down poppins regular*/
+    --mvp-font-family-subheading: "Source Serif Pro SemiBold";
+    --mvp-font-family-text: "Lato Regular";
+    --mvp-font-weight-normal: 400;
+    --mvp-font-weight-medium: 500;
+    --mvp-font-weight-semibold: 600;
+    --mvp-font-weight-bold: 700;
+}
