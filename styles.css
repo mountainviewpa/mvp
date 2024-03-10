@@ -1,8 +1,41 @@
 @import "fonts.min.css";
+@import "color-tokens.min.css";
 *,
 *::before,
 *::after {
     box-sizing: border-box;
+}
+
+.mvp-header {
+    color: var(--color-primary-green);
+}
+
+h1,
+h2 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: calc(1.375rem + 1.5vw);
+}
+
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+}
+
+h2 {
+    font-size: calc(1.325rem + 0.9vw);
+}
+
+@media (min-width: 1200px) {
+    h2 {
+        font-size: 2rem;
+    }
 }
 
 .mvp-container {

@@ -9,7 +9,8 @@
     <script>
         if (document.getElementsByTagName('link').length === 0) {
             const link = document.createElement('link');
-            link.rel = 'stylesheet', link.href = 'https://cdn.jsdelivr.net/gh/mountainviewpa/mvp@main/styles.min.css';
+            //link.rel = 'stylesheet', link.href = 'https://cdn.jsdelivr.net/gh/mountainviewpa/mvp@main/styles.min.css';
+            link.rel = 'stylesheet', link.href = 'styles.min.css';
             document.head.appendChild(link);
         }
     </script>
@@ -19,8 +20,8 @@
     <div class="mvp-container">
         <div class="mvp-row">
             <div class="features-list-container mvp-col-4">
-                <h1>Farm to Fork, Streamlined</h1>
-                <h2>Why You'll Love Our New Ordering System</h2>
+                <h1 class="mvp-header">Farm to Fork, Streamlined</h1>
+                <h2 class="mvp-header">Why You'll Love Our New Ordering System</h2>
                 <p>Every feature is designed with you in mind, ensuring a delightful shopping experience.</p>
 
                 <div class="mvp-row">
@@ -50,7 +51,7 @@
                 <p>Ready to taste the difference? Start shopping now.</p>
             </div>
             <div class="features-ordering-container mvp-col-8">
-                <h1>Simplified Ordering</h1>
+                <h1 class="mvp-header">Simplified Ordering</h1>
                 <div class="features-ordering-steps mvp-row mvp-align-items-baseline">
                     <div id="step-1" class="mvp-col">
                         <div class="mvp-row">
