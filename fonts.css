@@ -29,3 +29,11 @@
     font-display: fallback;
     font-style: normal;
 }
+
+@font-face {
+    font-family: "Poppins Regular";
+    src: url("https://www.mountainviewpasturespa.com/uploads/b/11edf924f1347b1bb49110d3e695087988b81ab6dcf33c9fe6649dde75a6029a/POPPINS-REGULAR_1705322839.TTF") format("truetype");
+    font-weight: 400;
+    font-display: fallback;
+    font-style: normal;
+}

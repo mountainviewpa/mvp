@@ -1,41 +1,30 @@
 @import "fonts.min.css";
 @import "color-tokens.min.css";
+@import "typography-design-tokens.min.css";
+:root {
+    /* This needs a better home */
+    --focus-border: 0 0 0 1px #d3d3d3, 0 0 0 3px #ad553d4d;
+    --color-active: #cc836f;
+}
+
 *,
 *::before,
 *::after {
     box-sizing: border-box;
 }
 
+body {
+    font-family: var(--mvp-font-family-text);
+    font-size: 16px;
+    line-height: 1.2;
+}
+
 .mvp-header {
     color: var(--color-primary-green);
 }
 
-h1,
-h2 {
-    margin-top: 0;
-    margin-bottom: 0.5rem;
-    font-weight: 500;
-    line-height: 1.2;
-}
-
-h1 {
-    font-size: calc(1.375rem + 1.5vw);
-}
-
-@media (min-width: 1200px) {
-    h1 {
-        font-size: 2.5rem;
-    }
-}
-
-h2 {
-    font-size: calc(1.325rem + 0.9vw);
-}
-
-@media (min-width: 1200px) {
-    h2 {
-        font-size: 2rem;
-    }
+.mvp-section-heading {
+    font-family: var(--mvp-font-family-section-heading);
 }
 
 .mvp-container {
@@ -192,4 +181,101 @@ h2 {
     .mvp-container {
         max-width: 1320px;
     }
+}
+
+.primary-button:focus {
+    box-shadow: rgb(255, 255, 255) 0px 0px 0px 0px, rgb(255, 255, 255) 0px 0px 0px 0px, rgb(211, 211, 211) 0px 0px 0px 1px, rgba(173, 85, 61, 0.3) 0px 0px 0px 3px;
+}
+
+.primary-button:active {
+    background-color: var(--color-active);
+}
+
+.primary-button {
+    /* layout */
+    align-items: center;
+    box-sizing: border-box;
+    display: inline-flex;
+    height: 48px;
+    justify-content: center;
+    margin: 8px 0 0 0;
+    min-height: 48px;
+    min-width: 0px;
+    padding: 0 24px;
+    position: relative;
+    /* text */
+    font-family: var(--mvp-font-family-cta-text);
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    /* appearance */
+    background-color: #AD553D;
+    color: #fff;
+    cursor: pointer;
+    /* other */
+    border: none;
+    border-radius: 8px;
+    padding-block: 0;
+    padding-inline: 24px;
+    /* animation */
+    transition: color .2s ease-in, background-color .2s ease-in, filter .2s ease-in, box-shadow .2s ease-in, border-radius .2s ease-in, font-size .2s ease-in;
+}
+
+.primary-button:hover {
+    background-color: #C26951;
+}
+
+.button-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.77;
+}
+
+.mvp-heading {
+    font-family: var(--mvp-font-family-heading);
+}
+
+.mvp-subheading {
+    font-family: var(--mvp-font-family-subheading);
+}
+
+.mvp-list-item {
+    margin-block: 1rem;
+}
+
+.primary-green {
+    color: var(--color-primary-green);
+}
+
+.mb-0 {
+    margin-block: 0 !important;
+}
+
+.mbe-1 {
+    margin-block-end: 1rem !important;
+}
+
+.mbe-2 {
+    margin-block-end: 2rem !important;
+}
+
+.mbs-1 {
+    margin-block-start: 1rem !important;
+}
+
+.mbs-3 {
+    margin-block-start: 3rem !important;
+}
+
+.mvp-text-center {
+    text-align: center !important;
+}
+
+.mvp-text-uppercase {
+    text-transform: uppercase !important;
+}
+
+.mvp-ls-1 {
+    letter-spacing: 1px;
 }
