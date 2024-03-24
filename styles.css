@@ -324,6 +324,10 @@ body {
     align-self: flex-start !important;
 }
 
+.mvp-step {
+    height: 52px;
+}
+
 @media (min-width: 0px) and (max-width: 599px) {
     .mvp-col-sm {
         flex: 1 0 0%;
