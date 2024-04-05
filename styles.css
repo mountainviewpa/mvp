@@ -20,7 +20,7 @@ body {
 }
 
 .mvp-header {
-    color: var(--color-primary-green);
+    color: var(--color-primary-mid-green);
 }
 
 .mvp-section-heading {
@@ -245,7 +245,7 @@ body {
 }
 
 .primary-green {
-    color: var(--color-primary-green);
+    color: var(--color-primary-mid-green);
 }
 
 .mvp-m-auto {
